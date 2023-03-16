@@ -45,7 +45,13 @@ namespace Pelicula
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+           Pelicula p1 = new Pelicula();
+           Actor
+           p1.SetTitulo("La La Land");
+           p1.SetAño(2016);
+           p1.SetPais ("Estados Unidos Hong Kong")
+           p1.SetDirector("Damien Chazelle")
+           Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño(),p1.GetPais(),GetDirector());
         }
     }
 }
