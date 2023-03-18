@@ -68,11 +68,11 @@ namespace Pelicula
         static void Main(string[] args)
         {        
             Pelicula p1 = new Pelicula();           
-            p1.setTitulo("Interestelar");
-            p1.setAño(2014);
+            p1.setTitulo("Parasitos");
+            p1.setAño(2020);
             Pelicula p2 = new Pelicula();
-            p2.setTitulo("Top Gun");
-            p2.setAño(2022);
+            p2.setTitulo("Titanic");
+            p2.setAño(1998);
             Console.WriteLine($"{p1.getTitulo()} - {p1.getAño()}");
             Console.WriteLine($"{p2.getTitulo()} - {p2.getAño()}"); 
         }
