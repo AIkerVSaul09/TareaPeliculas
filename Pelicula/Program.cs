@@ -8,9 +8,9 @@ namespace Pelicula
         //Campos
         private List<Actor> actores = new List<Actor>();
         private short year{ get; set; }
-        private string? país{ get; set; }
-        private string? director{ get; set; }
-        private string? titulo{ get; set; }
+        private string país{ get; set; }
+        private string director{ get; set; }
+        private string titulo{ get; set; }
 
         public Pelicula()
         {
@@ -24,7 +24,7 @@ namespace Pelicula
         //Métodos
         public void SetTitulo(string titulo){this.titulo = titulo;}
         public void SetAño(short year){this.year = year;}
-        public string? GetTitulo(){return this.titulo;}
+        public string GetTitulo(){return this.titulo;}
         public short GetAño(){return this.year;}
         public void AgregaActor(Actor actor)
         {
@@ -45,7 +45,7 @@ namespace Pelicula
     public class Actor
     {
         //Propiedades
-        private string? nombre{ get; set; }
+        private string nombre{ get; set; }
         private short year{ get; set; }
         public Actor(string nombre, short year)
         {
