@@ -7,10 +7,26 @@ namespace Pelicula
     {
         //Campos
         private List<Actor> actores = new List<Actor>();
-        private short year{ get; set; }
-        private string país{ get; set; }
-        private string director{ get; set; }
-        private string titulo{ get; set; }
+        private short year
+        {  
+          get; 
+          set; 
+        }
+        private string país
+         {  
+          get; 
+          set; 
+        }
+        private string director
+         {  
+          get; 
+          set; 
+        }
+        private string titulo
+         {  
+          get; 
+          set; 
+        }
 
         public Pelicula()
         {
@@ -45,8 +61,16 @@ namespace Pelicula
     public class Actor
     {
         //Propiedades
-        private string nombre{ get; set; }
-        private short year{ get; set; }
+        private string nombre
+         {  
+          get; 
+          set; 
+        }
+        private short year
+         {  
+          get; 
+          set; 
+        }
         public Actor(string nombre, short year)
         {
             this.nombre = nombre;
@@ -67,14 +91,14 @@ namespace Pelicula
     {
         static void Main(string[] args)
         {
-            Pelicula p1 = new Pelicula();
-            p1.SetTitulo("Titanic");
-            p1.SetAño(1988);
-            Pelicula p2 = new Pelicula();
-            p2.SetAño(2001);
-            p2.SetTitulo("El señor de los anillos");
-            p1.Imprime();
-            p2.Imprime();
+            Pelicula t = new Pelicula();
+            t.SetTitulo("Titanic");
+            t.SetAño(1988);
+            Pelicula e = new Pelicula();
+            e.SetAño(2001);
+            e.SetTitulo("El señor de los anillos");
+            t.Imprime();
+            e.Imprime();
         }
     }
 }
