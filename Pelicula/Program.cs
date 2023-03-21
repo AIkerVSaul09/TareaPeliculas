@@ -68,7 +68,7 @@ namespace Pelicula
         static void Main(string[] args)
         {
             Pelicula p1 = new Pelicula();
-            p1.SetTitulo("Titanic");
+            p1.SetTitulo("Tic");
             p1.SetAño(1988);
             Pelicula p2 = new Pelicula();
             p2.SetAño(2001);
