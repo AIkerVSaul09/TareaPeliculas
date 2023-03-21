@@ -23,7 +23,7 @@ namespace Pelicula
         }
         //Métodos
         public void SetTitulo(string titulo){this.titulo = titulo;}
-        public void SetAño(short año){this.year = year;}
+        public void SetAño(short year){this.year = year;}
         public string? GetTitulo(){return this.titulo;}
         public short GetAño(){return this.year;}
         public void AgregaActor(Actor actor)
@@ -68,11 +68,11 @@ namespace Pelicula
         static void Main(string[] args)
         {
             Pelicula p1 = new Pelicula();
-            p1.SetTitulo("la land");
-            p1.SetAño(2016);
+            p1.SetTitulo("Titanic");
+            p1.SetAño(1988);
             Pelicula p2 = new Pelicula();
-            p2.SetAño(2015);
-            p2.SetTitulo("land");
+            p2.SetAño(2001);
+            p2.SetTitulo("El señor de los anillos");
             p1.Imprime();
             p2.Imprime();
         }
